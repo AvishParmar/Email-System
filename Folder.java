@@ -6,10 +6,6 @@ import java.util.Collections;
 /**
  * Folder class that creates a Folder object and does operations on it.
  * @author Avish Parmar
- * SBUID: 112647892
- * Email: avish.parmar@stonybrook.edu
- * Course: CSE214
- * Recitation: Section 01
  */
 public class Folder implements Serializable{
 	
