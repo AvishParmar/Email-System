@@ -13,10 +13,6 @@ import java.util.Scanner;
 /**
  * Mailbox class that loads or creates a mailbox object and drives the program.
  * @author Avish Parmar
- * SBUID: 112647892
- * Email: avish.parmar@stonybrook.edu
- * Course: CSE214
- * Recitation: Section 01
  */
 public class Mailbox implements Serializable {
 	
@@ -225,14 +221,14 @@ public class Mailbox implements Serializable {
 			}
 			
 			System.out.print(" \r\n" + 
-					"A – Add folder\r\n" + 
-					"R – Remove folder\r\n" +
-					"C – Compose email\r\n" +
-					"F – Open folder\r\n" + 
-					"I – Open Inbox\r\n" +
-					"T – Open Trash\r\n" +
+					"A â€“ Add folder\r\n" + 
+					"R â€“ Remove folder\r\n" +
+					"C â€“ Compose email\r\n" +
+					"F â€“ Open folder\r\n" + 
+					"I â€“ Open Inbox\r\n" +
+					"T â€“ Open Trash\r\n" +
 					"E - Empty Trash\r\n"+
-					"Q – Quit\n");
+					"Q â€“ Quit\n");
 			
 			System.out.println();
 			
@@ -281,14 +277,14 @@ public class Mailbox implements Serializable {
 						System.out.println(temp.getName()+" is empty.\n");
 					
 					
-					System.out.println("\nM – Move email\r\n" +
-							"D – Delete email\r\n" +
-							"V – View email contents\r\n" +
-							"SA – Sort by subject line in ascending order\r\n"+
-							"SD – Sort by subject line in descending order\r\n"+
-							"DA – Sort by date in ascending order\r\n" +
-							"DD – Sort by date in descending order\r\n" + 
-							"R – Return to mailbox\n");
+					System.out.println("\nM â€“ Move email\r\n" +
+							"D â€“ Delete email\r\n" +
+							"V â€“ View email contents\r\n" +
+							"SA â€“ Sort by subject line in ascending order\r\n"+
+							"SD â€“ Sort by subject line in descending order\r\n"+
+							"DA â€“ Sort by date in ascending order\r\n" +
+							"DD â€“ Sort by date in descending order\r\n" + 
+							"R â€“ Return to mailbox\n");
 					
 					System.out.print("Enter a user option: ");
 					String selection = stdin.nextLine();
@@ -428,14 +424,14 @@ public class Mailbox implements Serializable {
 					else 
 						System.out.println("Inbox is empty.\n");
 					
-					System.out.println("\nM – Move email\r\n" +
-							"D – Delete email\r\n" +
-							"V – View email contents\r\n" +
-							"SA – Sort by subject line in ascending order\r\n"+
-							"SD – Sort by subject line in descending order\r\n"+
-							"DA – Sort by date in ascending order\r\n" +
-							"DD – Sort by date in descending order\r\n" + 
-							"R – Return to mailbox\n");
+					System.out.println("\nM â€“ Move email\r\n" +
+							"D â€“ Delete email\r\n" +
+							"V â€“ View email contents\r\n" +
+							"SA â€“ Sort by subject line in ascending order\r\n"+
+							"SD â€“ Sort by subject line in descending order\r\n"+
+							"DA â€“ Sort by date in ascending order\r\n" +
+							"DD â€“ Sort by date in descending order\r\n" + 
+							"R â€“ Return to mailbox\n");
 					
 					System.out.print("Enter a user option: ");
 					
@@ -567,14 +563,14 @@ public class Mailbox implements Serializable {
 						System.out.println("Trash is empty.\n");
 					
 					
-					System.out.println("\nM – Move email\r\n" +
-							"D – Delete email\r\n" +
-							"V – View email contents\r\n" +
-							"SA – Sort by subject line in ascending order\r\n"+
-							"SD – Sort by subject line in descending order\r\n"+
-							"DA – Sort by date in ascending order\r\n" +
-							"DD – Sort by date in descending order\r\n" + 
-							"R – Return to mailbox\n");
+					System.out.println("\nM â€“ Move email\r\n" +
+							"D â€“ Delete email\r\n" +
+							"V â€“ View email contents\r\n" +
+							"SA â€“ Sort by subject line in ascending order\r\n"+
+							"SD â€“ Sort by subject line in descending order\r\n"+
+							"DA â€“ Sort by date in ascending order\r\n" +
+							"DD â€“ Sort by date in descending order\r\n" + 
+							"R â€“ Return to mailbox\n");
 					
 					System.out.print("Enter a user option: ");
 					String selection = stdin.nextLine();
