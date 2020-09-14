@@ -8,10 +8,6 @@ import java.util.GregorianCalendar;
 /**
  * Email class that creates an Email object and instantiates it.
  * @author Avish Parmar
- * SBUID: 112647892
- * Email: avish.parmar@stonybrook.edu
- * Course: CSE214
- * Recitation: Section 01
  */
 public class Email implements Serializable{
 	/**
