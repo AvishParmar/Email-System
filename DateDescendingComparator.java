@@ -4,10 +4,6 @@ import java.util.Comparator;
 /**
  * DateDescendingComparator class that is invoked to sort a folder in date descending order
  * @author Avish Parmar
- * SBUID: 112647892
- * Email: avish.parmar@stonybrook.edu
- * Course: CSE214
- * Recitation: Section 01
  */
 @SuppressWarnings("rawtypes")
 public class DateDescendingComparator implements Comparator {
