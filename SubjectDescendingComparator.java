@@ -1,5 +1,3 @@
-package Homework5;
-
 import java.util.Comparator;
 /**
  * SubjectDescendingComparator class that is invoked to sort a folder in subject descending order
